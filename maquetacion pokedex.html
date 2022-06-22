@@ -4,24 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Pokedex</title>
 </head>
 <body>
+    <style>
+        body{
+            font-family: Verdana;
+            margin: 0;
+        }
+        header{
+            background-color: rgb(5, 255, 172);
+            color: white;
+            padding: 0 10%;
+        }
+        header > h1{
+            display: inline-block;
+            margin-left: 30px;
+        }
+        #logo{
+            width: 60px;
+        }
+        nav{
+            margin: 10px 10%;
+        }
+        nav > a{
+            padding: 0 10 px;
+        }
+        #pokedex{
+            width: 750px;
+            margin: 50px auto;
+        }
+        #left{
+            width: 250px;
+            height: 300px;
+            float: left;
+            background-color: yellow;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        #right{
+            width: 250px;
+            height: 250px;
+            margin-top: 50px;
+            background-color: yellow;
+            border-left-color: rgb(214, 214, 3);
+            border-left-style: solid;
+            border-left-width: 3px;
+            float: left;
+            border-bottom-right-radius: 30px;
+        }
+        .display{
+            border-color: black;
+            border-style: solid;
+            border-radius: 15px;
+            border-width: 5px;
+        }
+        #left > .display{
+            width: 180px;
+            height: 150px;
+            margin-left: 35px;
+            margin-top: 40px;
+            background-color: white;
+        }
+        #left > .display > img{
+            margin-left: 15px;
+            height: 100%;
+        }
+        #dpad{
+            width: 60px;
+            height: 60px;
+            margin-top: 15px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        #dpad-top, #dpad-bottom{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+            background-color: black;
+        }
+        #dpad-horizontal{
+            width: 60px;
+            height: 20px;
+            background-color: black;
+        }
+        #btn-circle{
+            width: 50px;
+            height: 50px;
+            margin-left: 95px;
+            border-style: solid;
+            border-color: red;
+            border-radius: 25px;
+            background-color: rgb(255, 17, 0);
+            display: inline-block;
+        }
+        #right > .display{
+            width: 180px;
+            height: 120px;
+            margin-left: 35px;
+            margin-top: 20px;
+            background-color: rgb(135, 253, 253);
+            font-size: 11.3px;
+        }
+        #pad{
+            width: 148px;
+            height: 65px;
+            margin-left: 60px;
+            margin-top: 15px;
+        }
+        #pad > .btn {
+            width: 25px;
+            height: 25px;
+            background-color: rgb(255, 17, 0);
+            display: inline-block;
+            border-style: solid;
+            border-color: red;
+            border-width: 2px;
+            border-radius: 3px;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style-type: none;
+        }
+        li > p{
+            margin: 0 5px;
+        }
+    </style>
     <header>
-      <img id="logo" src="" alt="logo">
+      <img id="logo" src="ba9b6992638a5b0dd1097c53294d9b4d.jpg" alt="logo">
       <h1>Mi Pokedex</h1>
     </header>
     <nav>
         <a href="#">Inicio</a>
         <a href="#">Acerca</a>
     </nav>
+    <hr>
     <main>
         <div id="pokedex">
             <div id="left">
                 <div class="display">
-                    <img id="pkm-img" src="" alt="pokemon">
+                    <img id="pkm-img" src="eevee.jpg" alt="pokemon">
                 </div>
-                <div id="dpad"></div>
+                <div id="dpad">
+                    <div id="dpad-top"></div>
+                    <div id="dpad-horizontal"></div>
+                    <div id="dpad-bottom"></div>
+                </div>
                 <div id="btn-circle"></div>
                 </div>
             </div>
@@ -29,19 +161,19 @@
                 <div class="display">
                     <ul>
                         <li>
-                            <p><b>Nombre:</b></p>
+                            <p><b>Nombre:</b>Eevee</p>
                         </li>
                         <li>
-                            <p><b>Tipo:</b></p>
+                            <p><b>Tipo:</b>Normal</p>
                         </li>
                         <li>
-                            <p><b>Altura:</b></p>
+                            <p><b>Altura:</b>0.3 metros</p>
                         </li>
                         <li>
-                            <p><b>Peso:</b></p>
+                            <p><b>Peso:</b>6.5 kilogramos</p>
                         </li>
                         <li>
-                            <p><b>Descripcion:</b></p>
+                            <p><b>Descripcion:</b>Su inestabilidad genética le permite transformarse al ser expuesto a las piedras elementales.</p>
                         </li>
                     </ul>
                 </div>
