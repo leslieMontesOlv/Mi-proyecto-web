@@ -25,6 +25,7 @@
         }
         #logo{
             width: 60px;
+            margin-top: 17px;
         }
         nav{
             margin: 10px 10%;
@@ -150,7 +151,7 @@
                 <div class="display">
                     <img id="pkm-img" src="imagenes/eevee.jpg">
                 </div>
-                <div id="dpad">
+                <div id="dpad" onclick="buscar()">
                     <div id="dpad-top"></div>
                     <div id="dpad-horizontal"></div>
                     <div id="dpad-bottom"></div>
@@ -191,5 +192,9 @@
             </div>
         </div>
     </main>
+    <script type="text/javascript" src="api_poke.js"></script>
+    <script>
+        buscar()
+    </script>
 </body>
 </html>

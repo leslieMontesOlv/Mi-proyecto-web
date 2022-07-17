@@ -8,7 +8,63 @@
     <title>Mi proyecto web</title>
 </head>
 <body>
-    <h1>Mafer Rocha</h1>
+    <style>
+        body{
+            background-color: rgb(224, 248, 250);
+            font-family: 'PT Sans', sans-serif;
+            font-size: 16px;
+        }
+        header{
+            background-color: rgb(127, 251, 255);
+            height: 100px;
+        }
+        h1{
+                margin: 12px;
+                color: rgb(255, 123, 196);
+                text-align: center
+            }
+        h2{
+                color: rgb(253, 161, 192);
+            }
+        img{
+                background-color: aqua;
+                align-items: center;
+            }
+        #kero{
+                width: 70px;
+                height: 70px;
+                border-radius: 5px;
+                margin-top: 10px;
+                margin-left: 100px;
+            }
+        #maffy{
+                width: 225px;
+                height: 225px;
+            }
+        #maffu{
+                width: 150px;
+                height: 175px;
+                margin-left: 590px;
+                border-color: white;
+            }
+        button{
+                width: 75px;
+                height: 30px;
+                background-color: rgb(252, 182, 155);
+                border-radius: 5px;
+                border-color: lightpink;
+            }
+        #maffy{
+                width: 164px;
+                height: 200px;
+            }
+    </style>
+
+    <header>
+        <img id="kero" src="imagenes/kero.png" alt="logo">
+        <h1>MaferRocha</h1>
+    </header>
+
     <img id="maffu" src="imagenes/Mafer Rocha.jpg" alt="MaferRocha">
 
 <p><b>Maria Fernanda Guerrero Rocha</b>, mejor conocida como Mafer Rocha, es una youtuber y streamer mexicana con contenido variado, caracteristico por varios videojuegos y maquillaje</p>
@@ -49,55 +105,17 @@
 <p>·Su cabello a sido de varios colores.</p>
 <p>·Reside en los Mochis, Sinaloa.</p>
 <p>·Le gusta mucho el k-pop</p>
+<p>·Fue cosplayer</p>
 <p>·Juega un variedad de juegos como League of leyends, Valorant, Apex leyends, entre otros</p>
 <p>·A estado en un comercial de Trident</p> 
 <p>·Le gusta mucho el cafe</p>
-
-<style>
-    body{
-        background-color: rgb(224, 248, 250);
-        font-family: 'PT Sans', sans-serif;
-        font-size: 16px;
-    }
-    h1{
-            margin: 12px;
-            color: rgb(255, 123, 196);
-            text-align: center
-        }
-    h2{
-        color: rgb(253, 161, 192);
-    }
-    img{
-        background-color: aqua;
-        align-items: center;
-    }
-    #maffy{
-        width: 225px;
-        height: 225px;
-    }
-    #maffu{
-        width: 150px;
-        height: 175px;
-        margin-left: 590px;
-        border-color: white;
-    }
-    button{
-        width: 75px;
-        height: 30px;
-        background-color: rgb(252, 182, 155);
-        border-radius: 5px;
-        border-color: lightpink;
-    }
-    #maffy{
-        width: 164px;
-        height: 200px;
-    }
-</style>
-
 <script>
     const saludo = "mafurr@";
         alert("Hola " + saludo)
 </script>
-
+<script type="text/javascript" src="api_mafer.js"></script>
+    <script>
+        buscar()
+    </script>
 </body>
 </html>
