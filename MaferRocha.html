@@ -10,62 +10,64 @@
 <body>
     <style>
         body{
-            background-color: rgb(224, 248, 250);
+            background-color: rgb(207, 248, 252);
             font-family: 'PT Sans', sans-serif;
             font-size: 16px;
         }
         header{
-            background-color: rgb(127, 251, 255);
-            height: 100px;
+            background-color: rgb(102, 229, 252);
         }
         h1{
-                margin: 12px;
-                color: rgb(255, 123, 196);
-                text-align: center
-            }
+            color: rgb(255, 123, 196);
+            text-align: center
+        }
         h2{
-                color: rgb(253, 161, 192);
-            }
+            color: rgb(253, 161, 192);
+        }
+        h5{
+            text-align: center;
+            color: rgb(94, 2, 94);
+        }
         img{
-                background-color: aqua;
-                align-items: center;
-            }
+            background-color: aqua;
+            align-items: center;
+        }
         #kero{
-                width: 70px;
-                height: 70px;
-                border-radius: 5px;
-                margin-top: 10px;
-                margin-left: 100px;
-            }
+            width: 70px;
+            height: 70px;
+            border-radius: 5px;
+            margin-top: 15px;
+            margin-left: 100px;
+        }
         #maffy{
-                width: 225px;
-                height: 225px;
-            }
-        #maffu{
-                width: 150px;
-                height: 175px;
-                margin-left: 590px;
-                border-color: white;
-            }
+            width: 225px;
+            height: 225px;
+        }
+        #figure{
+            width: 10%;
+            height: 10%;
+            margin-left: 590px;
+            border-color: white;
+        }
         button{
-                width: 75px;
-                height: 30px;
-                background-color: rgb(252, 182, 155);
-                border-radius: 5px;
-                border-color: lightpink;
-            }
+            width: 75px;
+            height: 30px;
+            background-color: rgb(252, 182, 155);
+            border-radius: 5px;
+            border-color: lightpink;
+        }
         #maffy{
-                width: 164px;
-                height: 200px;
-            }
+            width: 164px;
+            height: 200px;
+        }
     </style>
 
-    <header>
-        <img id="kero" src="imagenes/kero.png" alt="logo">
-        <h1>MaferRocha</h1>
-    </header>
+<header>
+    <img id="kero" src="imagenes/kero.png" alt="logo"><h1>MaferRocha</h1>
+</header>
 
-    <img id="maffu" src="imagenes/Mafer Rocha.jpg" alt="MaferRocha">
+    <img id="figure" src="imagenes/Mafer Rocha.jpg" alt="MaferRocha" onclick="buscar()">
+    <h5>intenta darle click a la imagen</h5>
 
 <p><b>Maria Fernanda Guerrero Rocha</b>, mejor conocida como Mafer Rocha, es una youtuber y streamer mexicana con contenido variado, caracteristico por varios videojuegos y maquillaje</p>
 
@@ -109,6 +111,7 @@
 <p>·Juega un variedad de juegos como League of leyends, Valorant, Apex leyends, entre otros</p>
 <p>·A estado en un comercial de Trident</p> 
 <p>·Le gusta mucho el cafe</p>
+
 <script>
     const saludo = "mafurr@";
         alert("Hola " + saludo)
