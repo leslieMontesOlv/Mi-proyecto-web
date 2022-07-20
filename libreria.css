@@ -5,7 +5,7 @@ html{
 
 }
 body{
-    width: 88%;
+    width: 90%;
     height: 1700px;
     margin: auto;
     background-color: rgb(184, 3, 159);
@@ -70,31 +70,31 @@ p{
 #logo{
     width: 250px;
     height: 125px;
-    margin-left: 375px;
+    margin-left: 35%;
 }
 #pAjaro{
-    margin-left: 380px;
+    margin-left: 38%;
     width: 300px;
     height: 120px;
 }
 #see{
     width: 70px;
     height: 100px;
-    margin-left: 750px;
+    margin-left: 85%;
     margin-bottom: 1500px;
 }
 #jeje{
     width: 70px;
     height: 95px;
-    margin-left: 750px;
+    margin-left: 85%;
 }
 #doce{
-    margin-left: 750px;
+    margin-left: 85%;
     width: 60px;
     height: 75;
 }
 #greg{
-    margin-left: 750px;
+    margin-left: 85%;
     width: 65px;
     height: 95px;
 }
