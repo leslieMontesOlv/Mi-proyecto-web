@@ -7,6 +7,11 @@
     <title>Planetas del Sistema Solar</title>
 </head>
 <body>
+    <div id="por">
+        <p id="volver"><b>Volver al portafolio</b></p>
+        <a href="index.html"><img id="porimg" src="imagenes/portafolio.png" alt="portafolio"></a>
+    </div>
+    
     <h1>Planetas del Sistema Solar</h1>
     <h2>Sol</h2>
     <img src="imagenes/sol.jpg" alt="imagen del sol">
@@ -31,9 +36,9 @@
     <h2>Tierra</h2>
     <img src="imagenes/tierra.jpg" alt="imagen de la tierra">
     <p>La Tierra (del latín Terra, deidad romana equivalente a Gea, diosa griega de la feminidad y la fecundidad) es un planeta del sistema solar que gira alrededor de su estrella —el Sol— en la tercera órbita más interna. Es el más denso y el quinto mayor de los ocho planetas del sistema solar. También es el mayor de los cuatro terrestres o rocosos.</p>
-    <p>Gravedad	9,80665 m/s²</p>
-    <p>Masa	5,9736×1024 kg1​</p>
-    <p>Volumen	1,08321×1012 km³</p>
+    <p>Gravedad: 9,80665 m/s²</p>
+    <p>Masa: 5,9736×1024 kg1​</p>
+    <p>Volumen:	1,08321×1012 km³</p>
 
     <h2>Marte</h2>
     <img src="imagenes/marte.jpg" alt="imagen de marte">
@@ -98,18 +103,29 @@
         }
         h1{
             border: 12px;
+            margin-top: -7%;
             color: white;
         }
         h2{
             border: 15px; ;
             color: white;
         }
-
-        img{
-            background-color: white;
-        }
         p{
             color: rgb(210, 239, 252);
+        }
+        #por{
+            background-color: rgb(162, 213, 255);
+            width: 100px;
+            height: 100px;
+            margin-left: 90%;
+        }
+        #porimg{
+            width: 30px;
+            height: 40px;
+            margin-left: 30%;
+        }
+        #volver{
+            color: gray;
         }
     </style>
 </html>

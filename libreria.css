@@ -1,0 +1,100 @@
+html{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+
+}
+body{
+    width: 88%;
+    height: 1700px;
+    margin: auto;
+    background-color: rgb(184, 3, 159);
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+header, footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(114, 237, 253);
+}
+
+div{
+    height: 1150px;
+    background-color: rgb(217, 134, 250);
+    padding: 20px;
+}
+
+#por{
+    margin-top: 65px;
+    background-color: rgb(162, 213, 255);
+    width: 100px;
+    height: 75px;
+}
+
+#porimg{
+   width: 30px;
+   height: 40px;
+   margin-left: 30%;
+}
+
+#volver{
+    margin-top: 1px;
+}
+
+section{
+    width: 90%;
+    height: 260px;
+    margin: 20px;
+    background-color: rgb(253, 173, 173);
+}
+h2{
+    width: 350px;
+    padding: 10px;
+    background-color: white;
+    border: 1px black solid;
+    text-align: center;
+}
+h4{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+p{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+#logo{
+    width: 250px;
+    height: 125px;
+    margin-left: 375px;
+}
+#pAjaro{
+    margin-left: 380px;
+    width: 300px;
+    height: 120px;
+}
+#see{
+    width: 70px;
+    height: 100px;
+    margin-left: 750px;
+    margin-bottom: 1500px;
+}
+#jeje{
+    width: 70px;
+    height: 95px;
+    margin-left: 750px;
+}
+#doce{
+    margin-left: 750px;
+    width: 60px;
+    height: 75;
+}
+#greg{
+    margin-left: 750px;
+    width: 65px;
+    height: 95px;
+}

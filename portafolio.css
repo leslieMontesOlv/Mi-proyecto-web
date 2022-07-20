@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(194, 253, 245);
+}
+header{
+    width: 94%;
+    height: 100%;
+    background-color: aquamarine;
+    margin: 30px;
+    border: 5px;
+    border-radius: 15px;
+    border-style: dashed;
+    border-color: white;
+}
+h1, h2{
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+#pkmn{
+    width: 150px;
+    height: 130px;
+}
+img{
+    width: 150px;
+    height: 150px;
+        
+}
+
+#proyectos{
+    width:70%;
+    margin:auto;
+    height:370px;
+    text-align:center;
+}
+.botones{
+    width:170px;
+    height:170px;
+    background-color: rgb(77, 255, 216);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(242, 200, 255);
+    margin-bottom: 3%;
+    margin-left: 40%;
+    border-radius: 5px;
+    padding:10px;
+}
+
+a:hover{
+    background-color: rgb(238, 189, 253);
+}
