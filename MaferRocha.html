@@ -5,23 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaferRocha</title>
     <link rel="stylesheet" href="mafer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <section id="logo">
-            <img id="kero" src="imagenes/kero.png">   
-       </section>
-        <nav id="menu">
-            <ul>
-                <li><a href="https://github.com/leslieMontesOlv">Perfil</a></li>
-                <li><a href="experiencia.html">Experiencia</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+            <div class="topnav" id="myTopnav">
+              <a href="MaferRocha.html" class="active">Inicio</a>
+              <a href="datos.html">Datos</a>
+              <a href="mascotas.html">Mascotas</a>
+              <a href="curiosidades.html">Curiosidades</a>
+              <a href="redes.html">Redes</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+<style>
+    .topnav {
+            background-color: #A2EBEB;
+            overflow: hidden;
+    }
+    .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+    }
+    .topnav a:hover {
+            background-color: rgb(253, 237, 237);
+            color: black;
+    }
+    .topnav a.active {
+            background-color: #FBBDBC;
+            color: white;
+    }
+    .topnav .icon {
+            display: none;
+    }
+    @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child) {display: none;}
+        .topnav a.icon {
+            float: right;
+            display: block;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .topnav.responsive {position: relative;}
+        .topnav.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+    }
+</style>
+<script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
     </header>
-
-<div>
+<section id="logo">
+    <img id="kero" src="imagenes/kerokero.png">   
+</section>
+<div id="vol">
     <p><b>Volver al portafolio</b></p>
     <a href="index.html"><img id="por" src="imagenes/portafolio.png" alt="portafolio"></a>
 </div>
@@ -32,74 +90,9 @@
 <h5>intenta darle click a la imagen</h5>
 
 <p><b>Maria Fernanda Guerrero Rocha</b>, mejor conocida como Mafer Rocha, es una youtuber y streamer mexicana con contenido variado, caracteristico por varios videojuegos y maquillaje.</p>
-<p>Posee un gran carisma y una buena actitud que hace que muchos la vean en sus streams seguidos. Habla con el chat constantemente por lo que no te sientes ignorado y su comunidad es muy 
+<p>Posee un gran carisma y una buena actitud que hace que muchos la vean en sus los streams que hace casi todos los dias. Habla con el chat constantemente por lo que no te sientes ignorado y su comunidad es muy 
     agradable y para nada toxica.
 </p>
-
-<h2>Cumpleaños</h2>
-
-<p>Ella nacio el 3 de febrero de 1996, por lo que actualmente tiene 26 años de edad.</p>
-
-<h2>Pareja</h2>
-
-<p>Desde el 30 de junio de 2012, a sus 16 años se hizo novia de el youtuber MissaSinfonia quien actualmente tiene 28 años de edad. Hoy en dia su relacion es de 10 años y lo curioso de esta es que ambos no tienen interes en comprometerse en matrimonio.</p>
-
-<img id="maffy" src="imagenes/mafer y missa.jpg" alt="MaferRocha y MissaSinfonia">
-
-<h2>Canal de youtube</h2>
-
-<p>Su canal autodenominado "MaferRocha" se creo el 14 de mayo de 2011. Actualmente cuenta con mas de 32 videos, 479 mil subscriptores y mas de 12,555,923 vistas.</p>
-<button><a href="https://www.youtube.com/channel/UCa1mPMBPy3xKZDwwRsed64A">ir al canal</a></button>
-
-<h3>Primer video</h3>
-<iframe width="400" height="213" src="https://www.youtube.com/embed/U9WMELAvlmo" title="Nosotras las Mujeres en Lol | League Of Legends" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h4>Numero de vistas</h4>
-<p>·Mas de 142,475 vistas</p>
-<h4>Fecha de publicacion</h4>
-<p>·17 de septiembre de 2015</p>
-
-<h3>Video con mas vistas</h3>
-<iframe width="400" height="213" src="https://www.youtube.com/embed/-VV2WSGTDzc" title="Mi Novio Narra mi MAKEUP!  ❤️ (Missa Sinfonia)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<h4>Numero de vistas</h4>
-<p>·Mas de 5,503,638 vistas</p>
-<h4>Fecha de publicacion</h4>
-<p>·10 de junio de 2018</p>
-
-<h2>Mascotas actuales</h2>
-
-<p>Cuenta con dos mascotas:</p>
-
-<h3>Bolillo</h3>
-<p><b>Especie:</b> huron</p>
-<p><b>Genero:</b> macho</p>
-<img id="bolillo" src="imagenes/bolillo.jpg">
-
-<h3>Rengar</h3>
-<p><b>Especie:</b> gato</p>
-<p><b>Genero:</b> macho</p>
-<img id="rengar" src="imagenes/renga.jpg">
-
-<h2>Redes Sociales</h2>
-
-<p>Twitter: Mas de 93.6 mil seguidores </p> <button><a href="https://twitter.com/MaffyRocha?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">ir</a></button>
-<p>Facebook: Mas de 175 mil seguidores </p> <button><a href="https://es-la.facebook.com/MaferRochaoficial/">ir</a></button>
-<p>Instagram: Mas de 539 mil seguidores</p> <button><a href="https://www.instagram.com/maferrocha/?hl=es-la">ir</a></button>
-<p>Twitch: Mas de 349.7 mil seguidores </p> <button><a href="https://www.twitch.tv/maferrocha?lang=es-mx">ir</a></button>
-<p>TikTok: Mas de 1.5 millones de seguidores</p> <button><a href="https://www.tiktok.com/@maferrocha?lang=es">ir</a></button>
-
-<h2>Curiosidades</h2>
-
-<p>·Su color favorito es el azul.</p>
-<p>·Le gusta mucho la serie stranger things.</p>
-<p>·Su cabello a sido de varios colores.</p>
-<p>·No le gusta mucho usar Facebook.</p>
-<p>·Reside en los Mochis, Sinaloa.</p>
-<p>·Le gusta mucho el k-pop.</p>
-<p>·Fue cosplayer.</p>
-<p>·Juega un variedad de juegos como League of leyends, Valorant, Apex leyends, entre otros.</p>
-<p>·Le gustan mucho los gatos pero es alergica a ellos.</p>
-<p>·A estado en un comercial de Trident.</p> 
-<p>·Le gusta mucho el cafe.</p>
 
 <script>
     const saludo = "mafurr@";

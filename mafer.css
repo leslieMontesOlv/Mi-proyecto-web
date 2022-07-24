@@ -1,19 +1,12 @@
 body{
     width: 100%;
-    background-color: rgb(207, 248, 252);
-    }
-     
-header{
-    width: 100%;
-    height: 100px;
-    background-color: rgb(102, 229, 252);
-    display: flex;
+    background-color: #cdfcfd;
     }
 #kero{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 7%;
 }
 #menu{
     width: 100%;
@@ -27,25 +20,25 @@ header{
     margin-left: 5px;
     }
 h1{
-    font-size: 40px;
-    color: rgb(255, 123, 196);
     margin-top: -5%;
+    font-size: 40px;
+    color: #FBBDBC;
     text-align: center;
 }
 h2{
-    color: rgb(253, 161, 192);
+    color: #F2CECE;
 }
 h3{
-    color: rgb(102, 184, 252);
+    color: #76D1D0;
 }
 h5{
     text-align: center;
-    color: rgb(94, 2, 94);
+    color: #76D1D0;
 }
 #figure{
     max-width: 200px;
     max-height: 450px;
-    margin-left: 41.5%;
+    margin-left: 42%;
 }
 button{
     width: 75px;
@@ -54,8 +47,8 @@ button{
     border-radius: 5px;
     border-color: lightpink;
 }
-div{
-    background-color: rgb(162, 213, 255);
+#volver{
+    background-color: #F2CECE;
     width: 80px;
 }
 #por{
@@ -66,4 +59,19 @@ div{
 #bolillo{
     width: 185px;
     height: 230px;
+}
+#ke{
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+#vol{
+    background-color: #F2CECE;
+    width: 80px;
+    margin-top: -6%;
+}
+#clic{
+    color: #76D1D0;
+    text-align: left;
 }

@@ -1,11 +1,10 @@
 body{
-    background-color: rgb(194, 253, 245);
+    background-color:  #cdfcfd;
 }
 header{
-    width: 94%;
+    width: 99%;
     height: 100%;
-    background-color: aquamarine;
-    margin: 30px;
+    background-color: #A2EBEB;
     border: 5px;
     border-radius: 15px;
     border-style: dashed;
@@ -23,6 +22,7 @@ h1, h2{
 img{
     width: 150px;
     height: 150px;
+    padding-bottom: 10px;
         
 }
 
@@ -34,17 +34,22 @@ img{
 }
 .botones{
     width:170px;
-    height:160px;
-    background-color: rgb(77, 255, 216);
+    height:170px;
+    background-color: #F2CECE;
     border: 1px;
     border-style: solid;
     border-color: rgb(250, 238, 253);
-    margin-bottom: 3%;
-    margin-left: 40%;
+    margin-top: 2%;
     border-radius: 5px;
     padding:10px;
 }
-
+div{
+    margin-left: 3%;
+}
+a{
+    background-color: #FBBDBC;
+    transition: background-color .5s;
+  }
 a:hover{
-    background-color: rgb(238, 189, 253);
+    background-color: aquamarine;
 }
