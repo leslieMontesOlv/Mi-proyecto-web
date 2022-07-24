@@ -1,7 +1,7 @@
 var idp=1;
 var long=0;
 
-    const url = "  https://lesliemontesolv.github.io/missa_api/missa.json ";
+    const url = " https://lesliemontesolv.github.io/missa_api/missa.json";
 
     function buscar(){
     
@@ -18,7 +18,7 @@ var long=0;
             
             var res= data.figures.filter(item=>item.id===idp);
             console.log(res);
-            var imagen=document.getElementById('maffy');
+            var imagen=document.getElementById('misso');
             imagen.src=res[0].figure;
         })
         
