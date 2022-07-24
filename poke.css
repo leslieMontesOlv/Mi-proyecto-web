@@ -1,16 +1,17 @@
 body{
     font-family: Verdana;
     margin: 0;
+    background-color: #cdfcfd;
 }
 header{
-    background-color: rgb(110, 237, 253);
+    background-color: #A2EBEB;
     color: white;
     padding: 0 10%;
 }
 header > h1{
     display: inline-block;
     margin-left: 30px;
-    color: lightpink;
+    color: #FBBDBC;
 }
 #logo{
     width: 60px;
