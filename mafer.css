@@ -74,7 +74,7 @@ button{
     color: #76D1D0;
     text-align: left;
 }
-@media (max-width: 600px){
+@media (max-width: 500px){
     #vol{
         margin-top: -19%;
         margin-left: 70%;
