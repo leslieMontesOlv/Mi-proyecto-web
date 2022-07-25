@@ -75,3 +75,8 @@ button{
     color: #76D1D0;
     text-align: left;
 }
+@media screen and(max-width: 670px ){
+    #kero{
+        margin-left: 20%;
+    }
+}
