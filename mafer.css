@@ -5,8 +5,6 @@ body{
 #kero{
     width: 70px;
     height: 70px;
-    margin-top: 5px;
-    margin-left: 7%;
 }
 #menu{
     width: 100%;
@@ -70,13 +68,21 @@ button{
     background-color: #F2CECE;
     width: 80px;
     margin-top: -6%;
+    margin-left: 90%;
 }
 #clic{
     color: #76D1D0;
     text-align: left;
 }
-@media screen and(max-width: 670px ){
-    #kero{
-        margin-left: 20%;
+@media (max-width: 600px){
+    #vol{
+        margin-top: -21%;
+        margin-left: 70%;
+    }
+    h1{
+        margin-top: 5%;
+    }
+    #figure{
+        margin-left: 25%;
     }
 }
