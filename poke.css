@@ -1,21 +1,21 @@
 body{
     font-family: Verdana;
     margin: 0;
-    background-color: #cdfcfd;
+    background-color: #36afa5;
 }
 header{
-    background-color: #A2EBEB;
-    color: white;
+    background-color: #add451;
     padding: 0 10%;
 }
 header > h1{
     display: inline-block;
     margin-left: 30px;
-    color: #FBBDBC;
+    color: #d38888;
 }
 #logo{
     width: 60px;
     margin-top: 17px;
+    background-color: #add451;
 }
 nav{
     margin: 10px 10%;
@@ -31,7 +31,7 @@ nav > a{
     width: 250px;
     height: 300px;
     float: left;
-    background-color: rgb(252, 252, 92);
+    background-color: #eee12e;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
@@ -40,8 +40,8 @@ nav > a{
     width: 250px;
     height: 250px;
     margin-top: 50px;
-    background-color: rgb(252, 252, 92);
-    border-left-color: rgb(214, 214, 3);
+    background-color: #eee12e;
+    border-left-color: #d4c929;
     border-left-style: solid;
     border-left-width: 3px;
     float: left;
@@ -88,9 +88,9 @@ nav > a{
     height: 50px;
     margin-left: 95px;
     border-style: solid;
-    border-color: rgb(219, 2, 2);
+    border-color: rgb(163, 1, 1);
     border-radius: 25px;
-    background-color: rgb(255, 22, 22);
+    background-color: rgb(219, 2, 2);
     display: inline-block;
 }
 #right > .display{
@@ -98,7 +98,7 @@ nav > a{
     height: 120px;
     margin-left: 35px;
     margin-top: 20px;
-    background-color: rgb(135, 253, 253);
+    background-color: rgb(162, 253, 253);
     font-size: 11.3px;
 }
 #pad{
@@ -110,10 +110,10 @@ nav > a{
 #pad > .btn {
     width: 25px;
     height: 25px;
-    background-color: rgb(255, 17, 0);
+    background-color: rgb(219, 2, 2);
     display: inline-block;
     border-style: solid;
-    border-color: red;
+    border-color: rgb(163, 1, 1);
     border-width: 2px;
     border-radius: 3px;
 }

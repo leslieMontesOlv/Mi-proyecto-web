@@ -1,10 +1,11 @@
 body{
-    background-color:  #cdfcfd;
+    background-color:  #36afa5;
+    padding: 1%;
 }
 header{
     width: 99%;
     height: 100%;
-    background-color: #A2EBEB;
+    background-color: #add451;
     border: 5px;
     border-radius: 15px;
     border-style: dashed;
@@ -34,10 +35,10 @@ img{
 .botones{
     width:170px;
     height:170px;
-    background-color: #F2CECE;
+    background-color: #eee12e;
     border: 1px;
     border-style: solid;
-    border-color: rgb(250, 238, 253);
+    border-color: white;
     margin-top: 2%;
     border-radius: 5px;
     padding:10px;
@@ -46,9 +47,9 @@ div{
     margin-left: 3%;
 }
 a{
-    background-color: #FBBDBC;
+    background-color: #d38888;
     transition: background-color .5s;
   }
 a:hover{
-    background-color: aquamarine;
+    background-color: #98e0e9;
 }

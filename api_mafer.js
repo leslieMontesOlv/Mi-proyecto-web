@@ -1,7 +1,7 @@
 var idp=1;
 var long=0;
 
-    const url = " https://lesliemontesolv.github.io/mafer_api/mafer.json ";
+    const url = "https://lesliemontesolv.github.io/mafer_api/mafer.json";
 
     function buscar(){
     
@@ -20,6 +20,8 @@ var long=0;
             console.log(res);
             var imagen=document.getElementById('figure');
             imagen.src=res[0].figure;
+            var imagen=document.getElementById('maff');
+            imagen.src=res[0].maff;
         })
 
         .catch(function(error){
