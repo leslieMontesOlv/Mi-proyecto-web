@@ -93,13 +93,13 @@ button{
     }
     #vol{
         margin-top: -13%;
-        margin-left: 65%;
+        margin-right: 8%;
     }
     h1{
         margin-top: 5%;
     }
     #figure{
-        margin-left: 17%;
+        margin-right: 15%;
     }
 }
 @media screen and(min-width: 768px)and(max-width: 1023px){
@@ -108,7 +108,10 @@ button{
     }
     #vol{
         margin-top: -13%;
-        margin-left: 55%;
+        margin-right: 6%;
+    }
+    #figure{
+        margin-right: 22%;
     }
 }
 .topnav {
