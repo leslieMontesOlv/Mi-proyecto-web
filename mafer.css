@@ -1,7 +1,6 @@
 body{
     width: 100%;
     background-color: #f0ed53;
-    padding: 0.2%;
     padding-right: 0.5%;
     }
 #kero{
@@ -38,7 +37,7 @@ h5{
 #figure{
     max-width: 200px;
     max-height: 450px;
-    margin-left: 43%;
+    padding-left: 43%;
 }
 button{
     width: 75px;
@@ -77,7 +76,7 @@ button{
     background-color: #a8ffe1;
     width: 80px;
     margin-top: -6%;
-    margin-left: 89%;
+    margin-left: 80%;
 }
 #clic{
     color: #fff59a;
@@ -111,26 +110,12 @@ button{
 .topnav .icon {
     display: none;
 }
-@media screen and(max-width: 767px){
-    body{
-        padding: 1px;
-    }
+@media (max-width: 950px){
     #vol{
-        margin-left: 70%;
+        margin-top: -15%;
     }
     #figure{
-        margin-left: 20%;
-    }
-}
-@media screen and(min-width: 768px)and(max-width: 1023px){
-    body{
-        padding: 3px;
-    }
-    #vol{
-        margin-left: 71%;
-    }
-    #figure{
-        margin-left: 26%;
+        margin-left: -13%;
     }
 }
 @media screen and (max-width: 600px) {
