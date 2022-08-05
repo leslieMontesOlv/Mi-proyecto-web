@@ -92,14 +92,14 @@ button{
         padding: 1px;
     }
     #vol{
-        margin-top: -13%;
-        margin-right: 8%;
+        margin-top: -17%;
+        margin-right: 25%;
     }
     h1{
         margin-top: 5%;
     }
     #figure{
-        margin-right: 15%;
+        margin-right: 45%;
     }
 }
 @media screen and(min-width: 768px)and(max-width: 1023px){
