@@ -47,6 +47,13 @@ button{
     border-radius: 5px;
     border-color: #a1fd77;
 }
+#butt{
+    width: 125px;
+    height: 30px;
+    background-color: #14d4c4;
+    border-radius: 5px;
+    border-color: #a1fd77;
+}
 #volver{
     background-color: #a8ffe1;
     width: 80px;
