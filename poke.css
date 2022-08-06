@@ -127,3 +127,26 @@ li{
 li > p{
     margin: 0 5px;
 }
+@media screen and(max-width: 950px){
+    #left{
+        width: 150px;
+        height: 200px;
+        float: left;
+        background-color: #eee12e;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    #right{
+        width: 150px;
+        height: 150px;
+        margin-top: 50px;
+        background-color: #eee12e;
+        border-left-color: #d4c929;
+        border-left-style: solid;
+        border-left-width: 3px;
+        float: left;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+}
