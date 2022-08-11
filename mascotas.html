@@ -7,10 +7,28 @@
     <link rel="stylesheet" href="mafer.css">
 </head>
 <body>
-    <div id="volver">
-        <p><b>Volver al inicio</b></p>
-        <a href="MaferRocha.html"><img id="ke" src="imagenes/kerokero.png"></a>
-    </div>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="MaferRocha.html"><img id="kero" src="imagenes/kerokero.png"></a>
+            <a href="datos.html">Datos</a>
+            <a href="mascotas.html" class="active">Mascotas</a>
+            <a href="curiosidades.html">Curiosidades</a>
+            <a href="redes.html">Redes</a>
+            <a href="index.html"><img id="por" src="imagenes/portafolio.png"></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 <h2>Mascotas actuales</h2>
 
 <p>Cuenta con dos mascotas:</p>
@@ -20,9 +38,11 @@
 <p><b>Genero:</b> macho</p>
 <img id="bolillo" src="imagenes/bolillo.jpg">
 
+<div id="reng">
 <h3>Rengar</h3>
 <p><b>Especie:</b> gato</p>
 <p><b>Genero:</b> macho</p>
 <img id="rengar" src="imagenes/renga.jpg">
+</div>
 </body>
 </html>

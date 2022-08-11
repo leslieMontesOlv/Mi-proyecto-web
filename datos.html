@@ -7,10 +7,29 @@
     <link rel="stylesheet" href="mafer.css">
 </head>
 <body>
-    <div id="volver">
-        <p><b>Volver al inicio</b></p>
-        <a href="MaferRocha.html"><img id="ke" src="imagenes/kerokero.png"></a>
-    </div>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="MaferRocha.html"><img id="kero" src="imagenes/kerokero.png"></a>
+            <a href="datos.html" class="active">Datos</a>
+            <a href="mascotas.html">Mascotas</a>
+            <a href="curiosidades.html">Curiosidades</a>
+            <a href="redes.html">Redes</a>
+            <a href="index.html"><img id="por" src="imagenes/portafolio.png"></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </header>
     <h2>Cumpleaños</h2>
 
     <p>Ella nacio el 3 de febrero de 1996, por lo que actualmente tiene 26 años de edad.</p>

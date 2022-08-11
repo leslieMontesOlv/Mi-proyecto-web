@@ -1,8 +1,12 @@
 body{
-    width: 100%;
+    width: 97%;
     background-color: #f0ed53;
-    padding-right: 0.5%;
+    padding: 1%;
     }
+header{
+    margin-left: -1%;
+    width: 102%;
+}
 #kero{
     width: 70px;
     height: 70px;
@@ -19,7 +23,6 @@ body{
     margin-left: 5px;
     }
 h1{
-    margin-top: -5%;
     font-size: 40px;
     color: #dd8888;
     text-align: center;
@@ -34,6 +37,23 @@ h5{
     text-align: center;
     color: #34a101;
 }
+#hre{
+    background-color: #90cc03;
+    height: 15%;
+    width: 103.45%;
+    margin-top: 3%;
+    margin-left: -2%;
+    margin-bottom: -1.5%;
+}
+#ker{
+    width: 60px;
+    height: 60px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#links{
+    margin-left: 3%;
+}
 #figure{
     max-width: 200px;
     max-height: 450px;
@@ -42,7 +62,7 @@ h5{
 button{
     width: 75px;
     height: 30px;
-    background-color: #14d4c4;
+    background-color: #79cfc8;
     border-radius: 5px;
     border-color: #a1fd77;
 }
@@ -60,13 +80,18 @@ button{
 #por{
     width: 30px;
     height: 40px;
-    margin-left: 30%;
 }
 #bolillo{
     width: 185px;
     height: 230px;
 }
-#ke{
+#misso{
+    margin-left: 40%;
+}
+#curioso{
+    margin-left: 2%;
+}
+#ke{ 
     width: 50px;
     height: 50px;
     margin-left: 15%;
@@ -78,6 +103,14 @@ button{
     margin-top: -6%;
     margin-left: 80%;
 }
+#redes{
+    width: 25px;
+    height: 25px;
+}
+#red{
+    width: 30px;
+    height: 20px;
+}
 #clic{
     color: #fff59a;
     text-align: left;
@@ -85,6 +118,14 @@ button{
 #mym{
     width: 200px;
     height: 200px;
+}
+#dc{
+    width: 80px;
+    height: 50px;
+}
+#disc{
+    width: 40px;
+    height: 40px;
 }
 .topnav {
     background-color: #36afa5;
@@ -116,6 +157,27 @@ button{
     }
     #figure{
         margin-left: -13%;
+    }
+}
+@media(min-width: 1025px){
+    #bolillo{
+        margin-left: 10%;
+        margin-top: -4.5%;
+    }
+    #rengar{
+        margin-left: 15%;
+        margin-top: -6.3%;
+    }
+    #reng{
+        margin-left: 30%;
+        margin-top: -22.1%;
+    }
+    #curioso{
+        margin-left: 1%;
+    }
+    #video{
+        margin-left: 40%;
+        margin-top: -32.9%;
     }
 }
 @media screen and (max-width: 600px) {

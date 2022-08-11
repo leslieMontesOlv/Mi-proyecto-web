@@ -10,34 +10,27 @@
 <body>
     <header>
         <div class="topnav" id="myTopnav">
-            <a href="MaferRocha.html" class="active">Inicio</a>
+            <a href="MaferRocha.html" class="active"><img id="kero" src="imagenes/kerokero.png"></a>
             <a href="datos.html">Datos</a>
             <a href="mascotas.html">Mascotas</a>
             <a href="curiosidades.html">Curiosidades</a>
             <a href="redes.html">Redes</a>
+            <a href="index.html"><img id="por" src="imagenes/portafolio.png"></a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
         <script>
             function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-            x.className += " responsive";
-            } else {
-            x.className = "topnav";
-            }
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
             }
         </script>
     </header>
-<section id="logo">
-    <img id="kero" src="imagenes/kerokero.png">   
-</section>
-<div id="vol">
-    <p><b>Volver al portafolio</b></p>
-    <a href="index.html"><img id="por" src="imagenes/portafolio.png" alt="portafolio"></a>
-</div>
-
 <h1 id="maff">MaferRocha</h1>
 
 <img id="figure" src="imagenes/Mafer Rocha.jpg" alt="MaferRocha" onclick="buscar()">
@@ -46,10 +39,16 @@
 <p><b>Maria Fernanda Guerrero Rocha</b>, mejor conocida como Mafer Rocha, es una youtuber y streamer mexicana con contenido variado, caracteristico por varios videojuegos y maquillaje.</p>
 <p>Posee un gran carisma y una buena actitud que hace que muchos la vean en sus los streams que hace casi todos los dias. Habla con el chat constantemente por lo que no te sientes ignorado y su comunidad es muy 
     agradable y para nada toxica.</p>
-    
+
 <script type="text/javascript" src="api_mafer.js"></script>
     <script>
         buscar()
     </script>
 </body>
+<div id="hre">
+    <img id="ker" src="imagenes/kerokero.png">
+    <a id="links" href="https://futureed.com/">FutureED</a>
+    <a id="links" href="contacto.html">Contacto</a>
+    <a id="links" href="https://github.com/leslieMontesOlv">GitHub</a>
+</div>
 </html>
